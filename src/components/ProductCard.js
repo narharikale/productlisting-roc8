@@ -1,13 +1,13 @@
 function ProductCard ( { product }) {
     return (
         <div className='w-72'>
-        <a href="#">
+        <div>
             <img className="w-fit h-96 object-cover" src={product.imgURL} alt="product img" />
-        </a>
+        </div>
         <div className="pt-1">
-            <a href="#">
+            <div>
                 <p className="mb-2 font-bold ">{product.name}</p>
-            </a> 
+            </div> 
             <p className="mb-3 font-normal ">Price : {product.price}</p> 
 
             <p className="mb-3 font-normal ">Size :{
