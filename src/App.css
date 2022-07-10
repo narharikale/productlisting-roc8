@@ -1,0 +1,14 @@
+@import url('https://neonui.netlify.app/css/main.css');
+
+
+.main-container{
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.product-card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
